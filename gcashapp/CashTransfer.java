@@ -1,8 +1,14 @@
+package gcashapp;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class CashTransfer {
+
+    public void transfer(int senderId, int recipientId, double amount) {
+        // Implement cash transfer logic
+        System.out.println("Successfully transferred PHP " + amount + " to user " + recipientId);
+    }
 
     static class Account {
         int accountId;

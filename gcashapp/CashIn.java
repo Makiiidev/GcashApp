@@ -1,3 +1,4 @@
+package gcashapp;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -5,6 +6,11 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class CashIn {
+
+    public void cashIn(int userId, double amount) {
+        // Implement cash-in logic
+        System.out.println("Successfully cashed in PHP " + amount);
+    }
 
     static class Transaction {
         int id;

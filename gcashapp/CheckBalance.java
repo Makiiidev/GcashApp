@@ -1,3 +1,4 @@
+package gcashapp;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -35,6 +36,11 @@ public class CheckBalance {
         System.out.println("Error: User ID not found.");
     }
 
+    public void CheckBalance(int userId) {
+        // Implement balance checking logic
+        System.out.println("Your current balance is: PHP 0.00");
+    }
+
     public static void main(String[] args) {
         CheckBalance app = new CheckBalance();
         Scanner scanner = new Scanner(System.in);
@@ -44,4 +50,6 @@ public class CheckBalance {
 
         app.checkBalance(userId);
     }
+
+   
 }

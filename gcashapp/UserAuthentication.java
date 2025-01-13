@@ -1,9 +1,15 @@
+package gcashapp;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class UserAuthentication {
+
+    public boolean authenticate(int userId) {
+        // Implement authentication logic
+        return true; // Return true if authenticated, false otherwise
+    }
 
     static class User {
         int id;
