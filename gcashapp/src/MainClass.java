@@ -1,4 +1,4 @@
-package gcashapp;
+package gcashapp.src;
 
 import java.util.Scanner;
 
